@@ -178,6 +178,7 @@ def main_handler(event, context):
                 sendMessage(lmsg + '今日签到 ' + msg)
                 break
             else:
+                sendMessage('ret'+ret)
                 break
         except Exception as e:
             print(e)
